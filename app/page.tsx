@@ -36,7 +36,7 @@ export default function Home() {
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4" id="download">
               <a
-                href="#download-url" 
+                href="https://github.com/mattbeckstrand/PdfReader/releases/download/v1.0.10/Epiphany-AI.dmg" 
                 className="shine inline-flex items-center justify-center gap-2 px-6 py-2.5 text-sm sm:text-base font-semibold rounded-full bg-white text-black shadow-xl hover:opacity-90 transition-all whitespace-nowrap"
               >
                 macOS download
@@ -45,7 +45,7 @@ export default function Home() {
                   <path d="M5 20a1 1 0 110-2h14a1 1 0 110 2H5z"/>
                 </svg>
               </a>
-              <a href="#download-url" className="inline-flex items-center justify-center gap-2 px-6 py-2.5 text-sm sm:text-base rounded-full border border-foreground/15 hover:border-foreground/30 transition-colors whitespace-nowrap">
+              <a href="https://github.com/mattbeckstrand/PdfReader/releases/download/v1.0.10/Epiphany-AI-Setup-x64.exe" className="inline-flex items-center justify-center gap-2 px-6 py-2.5 text-sm sm:text-base rounded-full border border-foreground/15 hover:border-foreground/30 transition-colors whitespace-nowrap">
                 Windows/Linux download
                 <svg viewBox="0 0 24 24" aria-hidden="true" className="w-5 h-5" fill="currentColor">
                   <path d="M12 3a1 1 0 011 1v11.586l3.293-3.293a1 1 0 011.414 1.414l-5.007 5.007a1 1 0 01-1.414 0L6.279 13.707a1 1 0 011.414-1.414L11 13.586V4a1 1 0 011-1z"/>
@@ -54,9 +54,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="text-xs text-foreground/50">
-              Private by default. Your docs never leave your device.
-            </div>
+            
           </div>
 
           {/* Right: App screenshot only */}

@@ -21,6 +21,10 @@ const display = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Epiphany AI - Your Intelligent PDF Reading Assistant",
   description: "Experience PDFs like never before. Epiphany AI brings intelligent chat assistance directly into your PDF reader, making document understanding effortless.",
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
+  },
 };
 
 export default function RootLayout({

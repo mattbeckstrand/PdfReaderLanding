@@ -36,7 +36,7 @@ export default function Home() {
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4" id="download">
               <a
-                href="https://github.com/mattbeckstrand/PdfReader/releases/download/untagged-efc0c36d7961647067fe/Epiphany-AI.dmg" 
+                href="https://github.com/mattbeckstrand/PdfReader/releases/download/untagged-d029abc5b278be2580ee/Epiphany-AI.dmg" 
                 className="shine inline-flex items-center justify-center gap-2 px-6 py-2.5 text-sm sm:text-base font-semibold rounded-full bg-white text-black shadow-xl hover:opacity-90 transition-all whitespace-nowrap"
               >
                 macOS download

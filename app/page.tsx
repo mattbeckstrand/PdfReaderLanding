@@ -24,9 +24,9 @@ export default function Home() {
           <div className="space-y-8">
             <div className="space-y-5">
               <h1 className="hero-title text-4xl sm:text-6xl leading-[0.95] font-medium">
-                Read less.
+                <span className="stroke-text">Understand</span> what
                 <br />
-                <span className="stroke-text">Understand</span> more.
+                others overlook
               </h1>
               <p className="text-base sm:text-lg text-foreground/70 max-w-lg">
                 A conversational PDF workspace that cites the page it thinks with.
@@ -36,7 +36,7 @@ export default function Home() {
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4" id="download">
               <a
-                href="https://github.com/mattbeckstrand/PdfReader/releases/download/v1.0.19/Epiphany-AI.dmg" 
+                href="https://github.com/mattbeckstrand/PdfReader/releases/download/untagged-efc0c36d7961647067fe/Epiphany-AI.dmg" 
                 className="shine inline-flex items-center justify-center gap-2 px-6 py-2.5 text-sm sm:text-base font-semibold rounded-full bg-white text-black shadow-xl hover:opacity-90 transition-all whitespace-nowrap"
               >
                 macOS download
@@ -45,7 +45,7 @@ export default function Home() {
                   <path d="M5 20a1 1 0 110-2h14a1 1 0 110 2H5z"/>
                 </svg>
               </a>
-              <a href="https://github.com/mattbeckstrand/PdfReader/releases/download/v1.0.19/Epiphany-AI-Setup-x64.exe" className="inline-flex items-center justify-center gap-2 px-6 py-2.5 text-sm sm:text-base rounded-full border border-foreground/15 hover:border-foreground/30 transition-colors whitespace-nowrap">
+              <a href="https://github.com/mattbeckstrand/PdfReader/releases/download/untagged-efc0c36d7961647067fe/Epiphany-AI-Setup-x64.exe" className="inline-flex items-center justify-center gap-2 px-6 py-2.5 text-sm sm:text-base rounded-full border border-foreground/15 hover:border-foreground/30 transition-colors whitespace-nowrap">
                 Windows/Linux download
                 <svg viewBox="0 0 24 24" aria-hidden="true" className="w-5 h-5" fill="currentColor">
                   <path d="M12 3a1 1 0 011 1v11.586l3.293-3.293a1 1 0 011.414 1.414l-5.007 5.007a1 1 0 01-1.414 0L6.279 13.707a1 1 0 011.414-1.414L11 13.586V4a1 1 0 011-1z"/>

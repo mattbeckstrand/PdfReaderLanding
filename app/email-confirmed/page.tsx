@@ -45,19 +45,13 @@ export default function EmailConfirmed() {
             </p>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+          {/* CTA Button */}
+          <div className="flex justify-center">
             <a
               href="/"
               className="inline-flex items-center justify-center gap-2 px-6 py-2.5 text-sm sm:text-base font-semibold rounded-full bg-white text-black shadow-xl hover:opacity-90 transition-all"
             >
               Back to Home
-            </a>
-            <a
-              href="/#download"
-              className="inline-flex items-center justify-center gap-2 px-6 py-2.5 text-sm sm:text-base rounded-full border border-foreground/15 hover:border-foreground/30 transition-colors"
-            >
-              Download App
             </a>
           </div>
         </div>

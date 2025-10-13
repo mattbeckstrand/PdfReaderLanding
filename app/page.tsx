@@ -36,7 +36,7 @@ export default function Home() {
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4" id="download">
               <a
-                href="https://github.com/mattbeckstrand/Epiphany_download/releases/download/v.0.0/Epiphany-AI.10.dmg" 
+                href="https://github.com/mattbeckstrand/Epiphany_download/releases/download/untagged-e1cd34f402ed92df4e6c/Epiphany-AI.dmg" 
                 className="shine inline-flex items-center justify-center gap-2 px-6 py-2.5 text-sm sm:text-base font-semibold rounded-full bg-white text-black shadow-xl hover:opacity-90 transition-all whitespace-nowrap"
               >
                 macOS download
